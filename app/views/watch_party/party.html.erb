@@ -1,0 +1,16 @@
+<header>
+  <!-- Header Goes Here -->
+</header>
+
+<main class="app">
+  <div id="roomContainer"></div>
+  <toolbar class="toolbar-wrapper">
+    <!-- Toolbar Goes Here -->
+  </toolbar>
+</main>
+
+<script type="text/javascript">
+  window.addEventListener('DOMContentLoaded', (event) => {
+     window.joinRoom('<%= @api_key %>', '<%= @session_id %>', '<%= @token %>', '<%= @name %>')
+});
+</script>

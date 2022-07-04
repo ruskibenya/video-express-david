@@ -1,0 +1,45 @@
+// Place all the styles related to the WatchParty controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+// Home Page Styles
+
+.card-wrapper{
+  display: flex;
+}
+vwc-card{
+  margin: auto;
+  padding: 10%;
+}
+
+#box{
+  padding: 50px 100px;
+}
+
+form {
+  display: grid;
+  gap: 20px;
+}
+.controls {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+#roomContainer {
+  width: 100vw;
+  height: calc(100vh - 130px);
+  position: relative;
+}
+#roomContainer > .OT_publisher {
+  top: 25px;
+  right: 25px;
+  position: absolute;
+  border-radius: 10px;
+}
+#roomContainer > .OT_screenshare {
+  top: 25px;
+  left: 25px;
+  position: absolute;
+  border-radius: 10px;
+}
