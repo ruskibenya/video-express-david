@@ -9,6 +9,8 @@ import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 import '@vonage/vivid';
 require('plugins/video-express');
+// require("components/header");
+// require("components/toolbar");
 
 Rails.start()
 Turbolinks.start()

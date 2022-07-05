@@ -43,3 +43,32 @@ form {
   position: absolute;
   border-radius: 10px;
 }
+
+// toolbar styles
+toolbar{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 650px;
+  background-color: var(--vvd-color-primary);
+  padding: 10px;
+  border-radius: 8px 8px 0 0;
+}
+
+.hidden{
+  display: none;
+}
+
+.white-border{
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.select-max-width{
+  max-width: 130px;
+}
+
+vwc-tooltip {
+  --tooltip-inline-size: 100px;
+  text-align: center;
+}
